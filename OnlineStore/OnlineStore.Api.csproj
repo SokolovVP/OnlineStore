@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9eb3adb0-af0d-4120-b110-2acb5569b975</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineStore.Application\OnlineStore.Application.csproj" />
+    <ProjectReference Include="..\OnlineStore.Contracts\OnlineStore.Contracts.csproj" />
+    <ProjectReference Include="..\OnlineStore.Infrastructure\OnlineStore.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
